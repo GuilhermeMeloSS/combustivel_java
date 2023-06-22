@@ -28,7 +28,7 @@ public class combustivel {
                     desconto = (combustivel == 'A') ? 0.05 : 0.06;
                 }
 
-                valor = (combustivel == 'A') ? (precoAlcool * litros) - ((precoAlcool * litros) * desconto)
+                valor =  (combustivel == 'A') ? (precoAlcool * litros) - ((precoAlcool * litros) * desconto)
                         : (precoGasolina * litros) - ((precoGasolina * litros) * desconto);
 
                 System.out.println("O valor total a ser pago será de " + valor);
